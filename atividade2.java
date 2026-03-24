@@ -19,21 +19,29 @@ public class atividade2 {
 	if (plano == 'b' || plano == 'B') { 
 	
 		double conta = 50.0;
+		
+		System.out.printf("voce passou quantos minutos em ligação?");
 		minutos = sc.nextInt();
+		
 		if (minutos > 100) {	
 		conta += (minutos - 100) * 2.0;
 		}
+		
 		System.out.printf("Valor da conta = R$ %.2f%n", conta);
 		
 		}else if (plano == 'p' || plano == 'P') { 
 			
 			double conta = 100.0;
+			
+			System.out.printf("voce passou quantos minutos em ligação?");
 			minutos = sc.nextInt();
+			
 			if (minutos > 300) {	
 			conta += (minutos - 300) * 2.0;
 			
 			System.out.printf("Valor da conta = R$ %.2f%n", conta);
-		}else {
+		
+			}else {
 			
 			System.out.printf("Escolha uma opção valida");
 			
