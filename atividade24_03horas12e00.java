@@ -39,6 +39,7 @@ public class atividade24_03horas12e00 {
                     // EXERCÍCIO 02
                     int x, y;
                     while (true) {
+                    	System.out.println("informe as coordenadas(X)(Y), caso queira parar coloque (0)(0)");
                         x = sc.nextInt();
                         y = sc.nextInt();
 
